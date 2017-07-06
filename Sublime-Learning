@@ -1,0 +1,17 @@
+# Install plugins:
+1. 需要安装package control 组件；可以用 下面命令去安装
+参考链接 ： http://www.cnblogs.com/Rising/p/3741116.html
+
+2. 按下Ctrl+Shift+P调出命令面板；输入install 调出 Install Package 选项并回车，然后在列表中选中要安装的插件。
+
+# Installation Issue Analysis
+3. 查找不到插件的问题分析，
+参考链接 ： http://blog.csdn.net/freshlover/article/details/44261229
+
+# Emmet
+4. 折腾很久， 还是不如打开emmet的插件官网去clone，然后拷贝到packages下面
+5. 官网链接： https://github.com/sergeche/emmet-sublime#readme
+6. Emmet学习用法： http://www.w3cplus.com/tools/emmet-cheat-sheet.html
+
+# Other plugins
+这里有sublime 经常用的插件
