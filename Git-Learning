@@ -1,0 +1,141 @@
+Welcome to the GitHub-Learning wiki!
+# Useful Link : 
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/
+
+# Command: 
+## Init Git Desktop
+//Configure the user which will be used by git
+//Of course you should use your name
+ 	$ git config --global user.name "xxxxx"
+// Same for the email address
+	$ git config --global user.email "xxxx@xxx.xxx.xx"
+// Set default so that all changes are always pushed to the repository
+	$ git config -- list
+
+## Local Command:
+1. 初始化Git仓库: $ git init
+2. 添加多个文件: $ git add filename / $ git add -A
+3. 提交到版本库：$ git commit –m “xxxx”
+4. 查看状态：$ git status
+5. 查看修改内容：$ git diff filename / $ git diff HEAD -- filename
+6. 查看提交历史：$ git log / $ git log --pretty=oneline --abbrev-commit/ $ git log --graph
+7. 查看命令历史：$ git reflog
+8. 丢弃工作区的修改: $ git checkout -- filename
+9. 丢弃暂存区修改: $ git reset HEAD file
+10. 版本回退：$ git reset --hard commit_id / $ git reset --hard HEAD^ / $ git reset --hard tagName
+11. 删除版本库文件：$ git rm  then $ git commit
+12. 删除错了：$ git checkout – filename
+Tip: $git reset –hard tagName 可以回退到打tag 的那个commit_id.
+
+
+## Remote Command:
+1. 创建ssh key命令 $ ssh-keygen -t rsa -C "youremail@example.com" 并且添加public key to github Setting/SSH Key
+
+2. 跟本地连接起来
+本地连接远程：$ git remote add origin xxxxx
+本地删除远程连接：$ git remote remove origin
+
+## Normal Flow with Local and Remote:
+1. 从远程克隆项目：$ git clone git@xxx
+
+2. 从本地上传代码：
+$ git push -u origin master(already set-upstream)
+$ git push origin master(local/master -> origin/master)
+$ git push origin dev(local/dev -> origin/dev)
+$ git push
+Tip : 
+a.	Cannnot push to origin/master from local/dev
+b.	Local dev branch connect to remote branch : $ git branch --set-upstream dev origin/dev
+
+3. 查看远程连接：
+$ git remote -v
+origin git@github.com:michaelliao/learngit.git (fetch)
+origin git@github.com:michaelliao/learngit.git (push)
+
+Tip:上面显示了可以抓取和推送的origin的地址。如果没有推送权限，就看不到push 地址。
+
+4. 从远程同步代码：
+$ git pull
+
+# Project Example:
+一般GitHub 上需要两个branch， master 是负责release 的分支（相当于之前RTC的Prod Stream），dev 是日常开发的分支（相当于之前RTC 的 dev Stream）。 一般同事都是从远端同步 dev 的代码下来， 然后自己创建自己的branch修改，push 到远程自己的branch， 再在远程pull request 到dev 分支。这样做可以做到修复bug 的时候有最干净的dev 去开始工作！ 远程的master 需要同步到本地，但是除非出街打包才merge 这个branch！ 建议保护master 这个分支，意味着不能本地提交代码到远程的master， 只能从远程的dev pull request 到远程的master 分支，并且需要review pull request！
+1 同步远程dev 分支
+切换到本地dev分支：$ git checkout dev
+同步远程dev 分支：$ git pull
+2 本地分支操作
+查看分支：$ git branch
+创建分支：$ git branch name
+切换分支：$ git checkout name
+创建+切换分支：$ git checkout -b name
+合并某分支到当前分支：$ git merge name
+删除分支：$ git branch -d name
+强制删除分支：$ git branch -D name
+和远程连接：$ git branch --set-upstream dev origin/dev
+Tip: 下面两个是同等的
+a.	本地创建和远程分支对应的分支: $ git checkout -b dev origin/dev
+b.	创建分支: $ git branch dev
+切换分支：$ git checkout dev
+和远程连接：$ git branch --set-upstream dev origin/dev
+3 解决冲突
+在master 和dev 分别改了同一行代码，当master merge dev 会冲突，需要手动改了之后再git add/git commit。之后回到dev 也得要merge master 过来（这时候git 会自动处理，不需要手动merge）。
+
+2.1禁用ff 模式merge：
+$ git merge --no-ff -m "xxxxx" branch
+Tip: 禁用“Fast forward”模式，Git就会在merge时生成⼀个新的commit，这样，从分支历史上就可以看出分支信息。
+
+2.2 查看merge 历史纪录：
+$ git log --graph --pretty=oneline --abbrev-commit
+4 提交到远程
+从本地dev 提交到远程dev分支：$ git push origin dev
+
+Tip: 
+a.	如果推送失败，则因为远程分支比你的本地更新，需要先用 $ git pull试图合并
+b.	如果合并有冲突，则解决冲突，并在本地提交
+c.	没有冲突或者解决掉冲突后，再用 $ git push origin branch-name推送就能成功
+d.	如果git pull提⽰示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令 $ git branch --set-upstream branch-name origin/branch-name
+
+但是，并不是一定要把本地分支往远程推送，那么，哪些分支需要推送，哪些不需要呢？
+
+• master分支是主分支，因此要时刻与远程同步；
+• dev分支是开发分支，团队所有成员都需要在上面工作，所以也需要与远程同步；
+• bug分支只用于在本地修复bug，就没必要推到远程了，除非老板要看你每周到底修复了几个bug；
+• feature分支是否推到远程，取决于你是否和你的小伙伴合作在上面开发
+5 紧急修复bug，stash功能
+保护dev branch现场：$ git stash
+创建bug branch：$ git checkout–b bugFixing-issue001
+合并到dev branch 提交：$ git merge --no-ff –m “xxx” bugFixing-issue001
+删除bug branch：$ git branch–d bugFixing-issue001
+恢复现场：$ git stash pop
+多个现场列表：$ git stash list
+恢复某个指定现场：$ git stash apply stash@{X}
+
+6 打标签，tag功能
+在RTC中，每次在dev stream 打测试包都需要打baseline， 每次上线前都需要在prod stream 上打baseline；同样的，在GitHub 中，我们也需要这样的操作！
+
+本地打标签：
+切换到相应分支：$ git checkout dev/$ git checkout master
+同步和远程的代码：$ git pull/$ git pull origin dev/$ git pull origin master
+打标签：
+$ git tag tagName
+$ git tag –a tagName -m “xxx”
+$ git tag tagName commit_id($ git log –pretty=oneline –abbrev-commit)
+$ git tag –a tagName -m “xxx” commit_id
+查看标签信息：$ git show tagName
+查看标签列表：$ git tag
+删除本地标签：$ git tag –d tagName
+提交标签到远程：
+$ git push origin tagName
+$ git push origin --tags
+删除远程标签：
+a.	先从本地删除：$ git tag -d v0.9
+b.	再从远程删除: $ git push origin :refs/tags/v0.9
+Other:
+忽略特殊文件：添加 .gitignore 文件到版本库
+配置快捷键：
+$ git config --global alias.st status
+$ git config --global alias.co checkout
+$ git config --global alias.ci commit
+$ git config --global alias.br branch
+$ git config --global alias.unstage 'reset HEAD
+$ git config --global alias.last 'log -1'
+$ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
