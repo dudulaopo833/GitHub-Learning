@@ -1,3 +1,6 @@
+Sass 官网和函数列表：
+http://sass-lang.com/documentation/Sass/Script/Functions.html
+
 Sass - 类 Ruby 语法， 空格敏感， 不需要花括号， 缩进和换行来表示； 所以后面Sass3.0 后推出了 scss
 
 # 安装
@@ -26,6 +29,13 @@ pre : .sass -> .scss (sass-covert fromFile.sass toFile.scss)
   9.1 mixin又有两种方式用; 复制拷贝使用的用@include, 使用时组合声明的方式来使用用@extend
   9.2 Sass支持基本运算：>= <= > < == != () + - * % mod eg: height: (500px/2)
 10. @at-root使得编译后的子样式和父样式同一层
-11. CSS3 支持HSL（颜色，饱和度，亮度）-〉红360，洋红300，蓝240，青180， 绿120， 黄60, eg: color: hsl(270,100%,50%);
-  
+11. CSS3 支持HSL（颜色，饱和度，亮度）-〉红360，洋红300，蓝240，青180， 绿120， 黄60, eg: color: hsl(270,100%,50%);Sass 用hsl函数来解决不同浏览器对hsl支持的问题
+12. @mixin name(params){
+}
+
+
+少用功能：
+1. Sass中 @function 来声明函数
+
+
 
