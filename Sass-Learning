@@ -1,0 +1,24 @@
+Sass - 类 Ruby 语法， 空格敏感， 不需要花括号， 缩进和换行来表示； 所以后面Sass3.0 后推出了 scss
+
+# 安装
+1. 安装Ruby
+2. 用gem 语句来安装sass -> gem install sass
+3. 用gem 语句来安装compass -> gem install compass
+
+参考链接：http://hanasan.tian.yam.com/posts/66719615
+
+# Compass 命令
+1. compass create ProjectName
+[sass folder, stylesheet folder, config.rb(Ruby config file)]
+2. compass watch --> real time compile
+
+# Sass 语法
+pre : .sass -> .scss (sass-covert fromFile.sass toFile.scss)
+1. _filename.scss -> 局部文件，和全局文件命令是要唯一的(@import "variableFileName") -> 不需要_和后缀
+2. $variableName: style -> 定义变量，这个变量一般都放在局部文件中
+3. 注释一般用/***/这个会出现在编译后的css 文件，//注释不会出现在编译后的css 文件
+4. 一般开头可以注释每个文件的用途，分下面几块去注释 CONTENT, COMPONENT(框架内置文件), SETTINg(变量文件)， TOOLS(引用其他包的文件)， BUSINESS(业务逻辑文件)， BASE(框架基础文件)
+5. 可以同时import 多个文件，用逗号分割 eg: @import "fileName1","fileName2";
+6. 子样式可以内置在父样式括号中，表示关系； 并且可以内置样式属性，但是需要用冒号 eg: .parentCSS{.childCSS{ .font:{family:xxx,size:xxx}}}
+7. 伪样式需要把父变量引用进来，要不然编译成 .parent *:hover. eg: a{&:hover{}}
+
