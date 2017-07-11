@@ -1,4 +1,5 @@
 #Useful Link:
+https://yarnpkg.com/zh-Hans/docs/cli/link
 https://segmentfault.com/a/1190000007189426
 
 #Yarn 是facebook推出的优化了npm的替代工具，会缓存以前下载的包， 速度会快很多；且安装命令也简洁些
