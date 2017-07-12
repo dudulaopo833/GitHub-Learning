@@ -23,7 +23,7 @@
 Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Compass - 
 
-##JS standus
+##JS 标准
 * ES6(ES2015) - http://es6-features.org/
 * Babel - https://babeljs.io/ and http://babeljs.cn/
 
