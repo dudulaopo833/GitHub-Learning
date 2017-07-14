@@ -45,6 +45,7 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Node.js - https://nodejs.org/en/
 * yarn - https://yarnpkg.com/en/
 * Yeoman - http://yeoman.io
+* bower - https://bower.io/
 
 ##代码检测工具
 * Eslint - http://eslint.org/ -> ES6 to ES5
