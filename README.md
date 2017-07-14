@@ -12,12 +12,12 @@
 
 
 ##JS 框架
-* React - https://facebook.github.io/react/
- > Redux - http://redux.js.org/
- > Router - http://react-guide.github.io/react-router-cn/
- > prop-types - https://facebook.github.io/react/docs/typechecking-with-proptypes.html
- > react-intel - https://github.com/yahoo/react-intl
- > classNames - https://www.npmjs.com/package/classnames
+* React - https://facebook.github.io/react/     
+  > Redux - http://redux.js.org/    
+  > Router - http://react-guide.github.io/react-router-cn/    
+  > prop-types - https://facebook.github.io/react/docs/typechecking-with-proptypes.html    
+  > react-intel - https://github.com/yahoo/react-intl   
+  > classNames - https://www.npmjs.com/package/classnames    
 * Angular - https://angularjs.org/
 * Vue - https://vuejs.org/ and https://cn.vuejs.org/v2/guide/
 
