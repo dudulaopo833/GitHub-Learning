@@ -2,7 +2,7 @@
 
 ##JS 库：
 * JQuery - https://jquery.com/ ->　$.
-* Lodash - http://lodashjs.com/  -> _.
+* Lodash - https://lodash.com/docs#get -> _.
 
 ## html 库
  * handlebars : http://keenwon.com/992.html
