@@ -1,8 +1,8 @@
 #前端工具
 
 ##JS 库：
-* JQuery - https://jquery.com/
-* Lodash - http://lodashjs.com/
+* JQuery - https://jquery.com/ ->　$.
+* Lodash - http://lodashjs.com/  -> _.
 
 ## html 库
  * handlebars : http://keenwon.com/992.html
