@@ -53,6 +53,9 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Eslint - http://eslint.org/ -> ES6 to ES5
 * Stylelint - https://github.com/stylelint/stylelint -> CSS
 
+##测试工具
+* Jest - http://facebook.github.io/jest/ -> Jest is a complete and easy to set up JavaScript testing solution
+
 ##其他工具
 * cssnano - https://github.com/ben-eb/cssnano -> css 压缩工具
 * emmet - https://emmet.io/ -->Sublime
