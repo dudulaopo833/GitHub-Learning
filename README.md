@@ -42,10 +42,12 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Git - https://github.com
 
 ##包管理工具
-* Node.js - https://nodejs.org/en/
-* yarn - https://yarnpkg.com/en/
+* Node.js - https://nodejs.org/en/ -> nested tree
+* yarn - https://yarnpkg.com/en/ -> better than npm
+* bower - https://bower.io/ --> only the front-end package
+
+##脚手架工具
 * Yeoman - http://yeoman.io
-* bower - https://bower.io/
 
 ##代码检测工具
 * Eslint - http://eslint.org/ -> ES6 to ES5
