@@ -4,6 +4,12 @@
 * JQuery - https://jquery.com/
 * Lodash - http://lodashjs.com/
 
+## html 库
+ * handlebars : http://keenwon.com/992.html
+ * Mustache : https://mustache.github.io/mustache.5.html
+ * Jade :　http://jade-lang.com or http://ithelp.ithome.com.tw/articles/10094475
+ * EJS : https://blog.gtwang.org/programming/ejs-embedded-javascript/
+
 
 ##JS 框架
 * React - https://facebook.github.io/react/
