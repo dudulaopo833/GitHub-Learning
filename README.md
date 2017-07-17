@@ -8,7 +8,7 @@
 * Git - https://github.com
 
 ## 包管理工具
-* Node.js - https://nodejs.org/en/ -> nested tree
+* Node.js - https://nodejs.org/en/ or https://docs.npmjs.com/files/package.json -> nested tree
 * yarn - https://yarnpkg.com/en/ -> better than npm
 * bower - https://bower.io/ --> only the front-end package
 
