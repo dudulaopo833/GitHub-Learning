@@ -60,8 +60,18 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 
 ##测试工具
 * Jest - http://facebook.github.io/jest/ -> Jest is a complete and easy to set up JavaScript testing solution
+* flowtype - https://flow.org/ or https://github.com/flowtype -> A static type checker for JavaScript
 * Selenium - https://wizardforcel.gitbooks.io/selenium-doc/content/official-site/introduction.html
 
 ##其他工具
 * cssnano - https://github.com/ben-eb/cssnano -> css 压缩工具
 * emmet - https://emmet.io/ -->Sublime
+
+## CLT 工具：
+* prompt - https://github.com/flatiron/prompt -> A beautiful command-line prompt for node.js
+* Commander.js - https://github.com/tj/commander.js/ -> The complete solution for node.js command-line interfaces
+* Shelljs - https://github.com/shelljs/shelljs -> ShellJS is a portable (Windows/Linux/OS X) implementation of Unix shell commands on top of the Node.js API
+http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
+* rimraf - https://github.com/isaacs/rimraf -> The UNIX command rm -rf for node.
+* ncp - https://www.npmjs.com/package/ncp -> Copy file
+* jsonfile - https://www.npmjs.com/package/jsonfile -> Easily read/write JSON files
