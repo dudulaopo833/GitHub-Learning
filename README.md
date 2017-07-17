@@ -1,10 +1,10 @@
-#前端工具
-##Node.js：
+# 前端工具
+## Node.js：
  * NPM list - https://www.npmjs.com/package/package
  * Taobao Mirror - https://npm.taobao.org/
  * JSFiddle - https://jsfiddle.net/
 
-##JS 库：
+## JS 库：
 * JQuery - https://jquery.com/ ->　$.
 * Lodash - https://lodash.com/docs#get -> _.
 
@@ -15,7 +15,7 @@
  * EJS : https://blog.gtwang.org/programming/ejs-embedded-javascript/
 
 
-##JS 框架
+## JS 框架
 * React - https://facebook.github.io/react/     
   > Redux - http://redux.js.org/    
   > Router - http://react-guide.github.io/react-router-cn/    
@@ -25,7 +25,7 @@
 * Angular - https://angularjs.org/
 * Vue - https://vuejs.org/ and https://cn.vuejs.org/v2/guide/
 
-##CSS 框架
+## CSS 框架
 * bootstrap - http://getbootstrap.com/ and http://getbootstrap.com/
 * Sass - http://sass-lang.com
 * Less - 
@@ -33,28 +33,28 @@
 Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Compass - 
 
-##JS 标准
+## JS 标准
 * ES6(ES2015) - http://es6-features.org/
 * Babel - https://babeljs.io/ and http://babeljs.cn/
 * JS - https://www.w3schools.com/jsref/jsref_substr.asp
 
-##工作流工具
+## 工作流工具
 * Grunt - https://gruntjs.com/
 * Gulp - http://gulpjs.com/
 * Webpack - https://webpack.js.org/guides/getting-started/
 
-##代码管理
+## 代码管理
 * Git - https://github.com
 
-##包管理工具
+## 包管理工具
 * Node.js - https://nodejs.org/en/ -> nested tree
 * yarn - https://yarnpkg.com/en/ -> better than npm
 * bower - https://bower.io/ --> only the front-end package
 
-##脚手架工具
+## 脚手架工具
 * Yeoman - http://yeoman.io
 
-##代码检测工具
+## 代码检测工具
 * Eslint - http://eslint.org/ -> ES6 to ES5
 * Stylelint - https://github.com/stylelint/stylelint -> CSS
 
