@@ -58,12 +58,12 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Eslint - http://eslint.org/ -> ES6 to ES5
 * Stylelint - https://github.com/stylelint/stylelint -> CSS
 
-##测试工具
+## 测试工具
 * Jest - http://facebook.github.io/jest/ -> Jest is a complete and easy to set up JavaScript testing solution
 * flowtype - https://flow.org/ or https://github.com/flowtype -> A static type checker for JavaScript
 * Selenium - https://wizardforcel.gitbooks.io/selenium-doc/content/official-site/introduction.html
 
-##其他工具
+## 其他工具
 * cssnano - https://github.com/ben-eb/cssnano -> css 压缩工具
 * emmet - https://emmet.io/ -->Sublime
 
