@@ -1,4 +1,8 @@
 #前端工具
+##Node.js：
+ * NPM list - https://www.npmjs.com/package/package
+ * Taobao Mirror - https://npm.taobao.org/
+ * JSFiddle - https://jsfiddle.net/
 
 ##JS 库：
 * JQuery - https://jquery.com/ ->　$.
@@ -32,6 +36,7 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 ##JS 标准
 * ES6(ES2015) - http://es6-features.org/
 * Babel - https://babeljs.io/ and http://babeljs.cn/
+* JS - https://www.w3schools.com/jsref/jsref_substr.asp
 
 ##工作流工具
 * Grunt - https://gruntjs.com/
@@ -55,6 +60,7 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 
 ##测试工具
 * Jest - http://facebook.github.io/jest/ -> Jest is a complete and easy to set up JavaScript testing solution
+* Selenium - https://wizardforcel.gitbooks.io/selenium-doc/content/official-site/introduction.html
 
 ##其他工具
 * cssnano - https://github.com/ben-eb/cssnano -> css 压缩工具
