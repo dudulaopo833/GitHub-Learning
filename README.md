@@ -3,6 +3,17 @@
  * NPM list - https://www.npmjs.com/package/package
  * Taobao Mirror - https://npm.taobao.org/
  * JSFiddle - https://jsfiddle.net/
+ 
+ ## 代码管理
+* Git - https://github.com
+
+## 包管理工具
+* Node.js - https://nodejs.org/en/ -> nested tree
+* yarn - https://yarnpkg.com/en/ -> better than npm
+* bower - https://bower.io/ --> only the front-end package
+
+## 脚手架工具
+* Yeoman - http://yeoman.io
 
 ## JS 库：
 * JQuery - https://jquery.com/ ->　$.
@@ -42,17 +53,6 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Grunt - https://gruntjs.com/
 * Gulp - http://gulpjs.com/
 * Webpack - https://webpack.js.org/guides/getting-started/
-
-## 代码管理
-* Git - https://github.com
-
-## 包管理工具
-* Node.js - https://nodejs.org/en/ -> nested tree
-* yarn - https://yarnpkg.com/en/ -> better than npm
-* bower - https://bower.io/ --> only the front-end package
-
-## 脚手架工具
-* Yeoman - http://yeoman.io
 
 ## 代码检测工具
 * Eslint - http://eslint.org/ -> ES6 to ES5
