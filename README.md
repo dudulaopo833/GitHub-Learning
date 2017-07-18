@@ -75,3 +75,6 @@ http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
 * rimraf - https://github.com/isaacs/rimraf -> The UNIX command rm -rf for node.
 * ncp - https://www.npmjs.com/package/ncp -> Copy file
 * jsonfile - https://www.npmjs.com/package/jsonfile -> Easily read/write JSON files
+* winston - https://github.com/winstonjs/winston -> a multi-transport async logging library for node.js 
+* co - https://github.com/tj/co -> The ultimate generator based flow-control goodness for nodejs 
+* co-promt - https://github.com/tj/co-prompt -> sane terminal user-input for node.js using thunks / generators
