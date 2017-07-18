@@ -69,13 +69,15 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 
 ## CLT 工具：
 * prompt - https://github.com/flatiron/prompt -> A beautiful command-line prompt for node.js
-* Commander.js - https://github.com/tj/commander.js/ -> The complete solution for node.js command-line interfaces
+* Commander.js - https://github.com/tj/commander.js/ -> The complete solution for node.js command-line interfaces*
+* inguirer - https://www.npmjs.com/package/inquirer -> A collection of common interactive command line user interfaces
+* co-promt - https://github.com/tj/co-prompt -> sane terminal user-input for node.js using thunks / generators
+* co - https://github.com/tj/co -> The ultimate generator based flow-control goodness for nodejs 
+* chalk - https://github.com/chalk/chalk -> Terminal string styling done right
 * Shelljs - https://github.com/shelljs/shelljs -> ShellJS is a portable (Windows/Linux/OS X) implementation of Unix shell commands on top of the Node.js API
 http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
 * rimraf - https://github.com/isaacs/rimraf -> The UNIX command rm -rf for node.
 * ncp - https://www.npmjs.com/package/ncp -> Copy file
 * jsonfile - https://www.npmjs.com/package/jsonfile -> Easily read/write JSON files
 * winston - https://github.com/winstonjs/winston -> a multi-transport async logging library for node.js 
-* co - https://github.com/tj/co -> The ultimate generator based flow-control goodness for nodejs 
-* co-promt - https://github.com/tj/co-prompt -> sane terminal user-input for node.js using thunks / generators
-* chalk - https://github.com/chalk/chalk -> Terminal string styling done right
+
