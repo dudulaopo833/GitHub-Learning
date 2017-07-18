@@ -79,5 +79,9 @@ http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
 * rimraf - https://github.com/isaacs/rimraf -> The UNIX command rm -rf for node.
 * ncp - https://www.npmjs.com/package/ncp -> Copy file
 * jsonfile - https://www.npmjs.com/package/jsonfile -> Easily read/write JSON files
-* winston - https://github.com/winstonjs/winston -> a multi-transport async logging library for node.js 
+* winston - https://github.com/winstonjs/winston -> a multi-transport async logging library for node.js
+* gutil - https://www.npmjs.com/package/gutil -> General Util methods
+* lerna - https://github.com/lerna/lerna -> A tool for managing JavaScript projects with multiple packages.
+* verdaccio - https://github.com/verdaccio/verdaccio -> Private npm repository server
+* tcomb - https://www.npmjs.com/package/tcomb -> tcomb is a library for Node.js and the browser which allows you to check the types of JavaScript values at runtime with a simple and concise syntax
 
