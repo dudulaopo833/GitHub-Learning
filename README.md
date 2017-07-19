@@ -85,4 +85,5 @@ http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
 * lerna - https://github.com/lerna/lerna -> A tool for managing JavaScript projects with multiple packages.
 * verdaccio - https://github.com/verdaccio/verdaccio -> Private npm repository server
 * tcomb - https://www.npmjs.com/package/tcomb -> tcomb is a library for Node.js and the browser which allows you to check the types of JavaScript values at runtime with a simple and concise syntax
+* download-git-repo - https://www.npmjs.com/package/download-git-repo -> Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
 
