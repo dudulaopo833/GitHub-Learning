@@ -74,6 +74,7 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * co-promt - https://github.com/tj/co-prompt -> sane terminal user-input for node.js using thunks / generators
 * co - https://github.com/tj/co -> The ultimate generator based flow-control goodness for nodejs 
 * chalk - https://github.com/chalk/chalk -> Terminal string styling done right
+* cli-table - https://www.npmjs.com/package/cli-table -> This utility allows you to render unicode-aided tables on the command line from your node.js scripts.
 * Shelljs - https://github.com/shelljs/shelljs -> ShellJS is a portable (Windows/Linux/OS X) implementation of Unix shell commands on top of the Node.js API
 http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
 * rimraf - https://github.com/isaacs/rimraf -> The UNIX command rm -rf for node.
