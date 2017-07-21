@@ -64,6 +64,7 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Selenium - https://wizardforcel.gitbooks.io/selenium-doc/content/official-site/introduction.html
 
 ## 其他工具
+* css-loader - https://github.com/webpack-contrib/css-loader
 * postcss - https://github.com/postcss/postcss
 * autoprefixer - https://github.com/postcss/autoprefixer
 * cssnano - https://github.com/ben-eb/cssnano -> css 压缩工具
