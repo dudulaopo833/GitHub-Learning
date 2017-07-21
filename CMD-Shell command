@@ -1,0 +1,15 @@
+# CMD:
+cd -> enter to some folder  
+cd .. -> out to parent folder  
+mkdir -> create folder  
+copy nul createNewFile.txt   
+cls -> clean screen  
+
+
+
+# Shell:
+cd -> enter to some folder  
+cd .. -> out to parent folder  
+mkdir -> create folder  
+touch createNewFile.txt  
+clear -> clean screen 
