@@ -79,6 +79,7 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Shelljs - https://github.com/shelljs/shelljs -> ShellJS is a portable (Windows/Linux/OS X) implementation of Unix shell commands on top of the Node.js API -〉执行unix命令
 http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
 * rimraf - https://github.com/isaacs/rimraf -> The UNIX command rm -rf for node. -〉unix 命令删除文件和文件夹
+* mkdirp - https://github.com/substack/node-mkdirp -> Recursively mkdir, like `mkdir -p`, but in node.js
 * ncp - https://www.npmjs.com/package/ncp -> Copy file -〉拷贝文件
 * copyfiles - https://www.npmjs.com/package/copyfiles -> copy files easily -〉拷贝文件
 * jsonfile - https://www.npmjs.com/package/jsonfile -> Easily read/write JSON files -〉读写json 文件
