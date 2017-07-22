@@ -6,6 +6,7 @@ b. @abc -> 对于css选择器定义跳转，对于js定义方法跳转， 快速
 c. #body -> 在一个文件中查找
 
 > 命令行：ctrl + shift + P -> 调出命令行（如果调不出来，就更改keybanding）
+https://packagecontrol.io/
 a. 输入 ss(set syntax: javascript)定义文件的类型
 b. 输入 install package可以安装插件
 b.1. 安装emmet 插件
@@ -14,16 +15,24 @@ b.3. 安装 theme-flatland 主题
 b.4. 安装sinppet，比如jquery
 b.5. 安装advanceNewFile 插件， 用ctrl+alt+N来指定路径并且新建文件
 b.6. 安装sidebarenhencement插件，可以右键html文件来打开
-b.7. 安装docBlockr插件，可以快速的添加注释 /*, /**, /** before a function
+b.7. 安装docBlockr插件，可以快速的添加注释 /*, /**, /** before a function + enter
 b.8. 安装sublimelint 和sublinelinter-jshint（依赖npm安装的jshint），可以校验js代码
+b.9. 安装terminal插件， 用 ctrl+shift+t 打开控制台
 Tip: 发现去sublime官网下载的工具，安装插件等没有任何问题， 建议去官网下载
 
+> 基本快捷键
 ctrl + N -> 新建文件
-ctrl + enter -> 在当前行中，插入一行空行到下方
-ctrl + shift + D -> 复制一行
-ctrl + shift + Up/Down -> 移动一行上下
 ctrl + F -> 查找
 ctrl + H -> 替换
+
+ >  插入： 
+ctrl + enter -> 在当前行中，插入一行空行到下方
+ctrl + shift + enter-> 在当前行中，插入一行空行到上方 (如果调不出来，可以更改keybanding)
+
+ > 其他好用的快捷键：
+ctrl + shift + D -> 复制一行
+ctrl + shift + K -> 删除一行(如果调不出来，可以更改keybanding)
+ctrl + shift + Up/Down -> 移动一行上下
 
 > 选中：
 Esc -> 退出多行选择模式
