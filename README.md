@@ -70,7 +70,7 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * cssnano - https://github.com/ben-eb/cssnano -> css 压缩工具
 * emmet - https://emmet.io/ -->Sublime
 
-## CLT 工具：
+## NPM 包：
 * Commander.js - https://github.com/tj/commander.js/ -> The complete solution for node.js command-line interfaces* -> 构造命令
 * prompt - https://github.com/flatiron/prompt -> A beautiful command-line prompt for node.js -> 提示命令的输入
 * inguirer - https://www.npmjs.com/package/inquirer -> A collection of common interactive command line user interfaces -〉提示命令输入
