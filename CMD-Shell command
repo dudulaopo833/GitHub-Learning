@@ -2,6 +2,7 @@
 cd -> enter to some folder  
 cd .. -> out to parent folder  
 mkdir -> create folder  
+rmdir -> delete folder  
 copy nul createNewFile.txt   
 cls -> clean screen  
 
