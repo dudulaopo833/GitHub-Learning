@@ -33,6 +33,18 @@ ctrl + shift + enter-> 在当前行中，插入一行空行到上方 (如果调�
 ctrl + shift + D -> 复制一行
 ctrl + shift + K -> 删除一行(如果调不出来，可以更改keybanding)
 ctrl + shift + Up/Down -> 移动一行上下
+home -> 跳到行首
+end -> 跳到行尾
+提示： 由于home，end比较远， 可以自定义如下
+[
+    { "keys": ["ctrl+alt+h"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["ctrl+alt+e"], "command": "move_to", "args": {"to": "eol", "extend": false} }
+]
+
+作者：Cavin Lang
+链接：https://www.zhihu.com/question/26382359/answer/62163123
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 > 选中：
 Esc -> 退出多行选择模式
