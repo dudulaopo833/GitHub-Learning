@@ -5,9 +5,18 @@ a. :3 调到第三行，
 b. @abc -> 对于css选择器定义跳转，对于js定义方法跳转， 快速模糊匹配文件, 
 c. #body -> 在一个文件中查找
 
-> 命令行：ctrl + shift + P -> 调出命令行（如果调不出来，就更改keybanding），
+> 命令行：ctrl + shift + P -> 调出命令行（如果调不出来，就更改keybanding）
 a. 输入 ss(set syntax: javascript)定义文件的类型
-b. 
+b. 输入 install package可以安装插件
+b.1. 安装emmet 插件
+b.2. 安装 babel 插件
+b.3. 安装 theme-flatland 主题
+b.4. 安装sinppet，比如jquery
+b.5. 安装advanceNewFile 插件， 用ctrl+alt+N来指定路径并且新建文件
+b.6. 安装sidebarenhencement插件，可以右键html文件来打开
+b.7. 安装docBlockr插件，可以快速的添加注释 /*, /**, /** before a function
+b.8. 安装sublimelint 和sublinelinter-jshint（依赖npm安装的jshint），可以校验js代码
+Tip: 发现去sublime官网下载的工具，安装插件等没有任何问题， 建议去官网下载
 
 ctrl + N -> 新建文件
 ctrl + enter -> 在当前行中，插入一行空行到下方
@@ -15,9 +24,6 @@ ctrl + shift + D -> 复制一行
 ctrl + shift + Up/Down -> 移动一行上下
 ctrl + F -> 查找
 ctrl + H -> 替换
-
-
-
 
 > 选中：
 Esc -> 退出多行选择模式
@@ -34,23 +40,8 @@ ctrl + shift + / -> 选中， 然后注释一段
 ctrl + [ -> 增加缩进
 ctrl + ] -> 减少缩进
 
-
-
-
-# Install plugins:
-1. 需要安装package control 组件；可以用 下面命令去安装
-参考链接 ： http://www.cnblogs.com/Rising/p/3741116.html
-
-2. 按下Ctrl+Shift+P调出命令面板；输入install 调出 Install Package 选项并回车，然后在列表中选中要安装的插件。
-
-# Installation Issue Analysis
-3. 查找不到插件的问题分析，
-参考链接 ： http://blog.csdn.net/freshlover/article/details/44261229
-
-# Emmet
-4. 折腾很久， 还是不如打开emmet的插件官网去clone，然后拷贝到packages下面
-5. 官网链接： https://github.com/sergeche/emmet-sublime#readme
-6. Emmet学习用法： http://www.w3cplus.com/tools/emmet-cheat-sheet.html
-
-# Other plugins
-这里有sublime 经常用的插件
+> Sinppets模板编辑(tab快速切换要改的内容)
+fun -> enter -> function
+ife -> if...else..
+proto -> prototype
+可以下载 jquery,等 snippets
