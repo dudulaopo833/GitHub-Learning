@@ -1,3 +1,42 @@
+# Sublime 3 快捷键
+
+> GoTo Anything: Ctrl + P
+a. :3 调到第三行， 
+b. @abc -> 对于css选择器定义跳转，对于js定义方法跳转， 快速模糊匹配文件, 
+c. #body -> 在一个文件中查找
+
+> 命令行：ctrl + shift + P -> 调出命令行（如果调不出来，就更改keybanding），
+a. 输入 ss(set syntax: javascript)定义文件的类型
+b. 
+
+ctrl + N -> 新建文件
+ctrl + enter -> 在当前行中，插入一行空行到下方
+ctrl + shift + D -> 复制一行
+ctrl + shift + Up/Down -> 移动一行上下
+ctrl + F -> 查找
+ctrl + H -> 替换
+
+
+
+
+> 选中：
+Esc -> 退出多行选择模式
+alt + F3 -> 选中当前单词的所有相同的单词
+ctrl + D -> 当前选中一个单词， 多次按就多次选中同样的单词并且多个光标
+ctrl + D & ctrl + K  -> 跳过当前选择
+ctrl + L -> 选中当前行， 多次按可以多次选择多行
+
+> 注释 ：
+ctrl + / ->选中，然后注释
+ctrl + shift + / -> 选中， 然后注释一段 
+
+> 缩进
+ctrl + [ -> 增加缩进
+ctrl + ] -> 减少缩进
+
+
+
+
 # Install plugins:
 1. 需要安装package control 组件；可以用 下面命令去安装
 参考链接 ： http://www.cnblogs.com/Rising/p/3741116.html
