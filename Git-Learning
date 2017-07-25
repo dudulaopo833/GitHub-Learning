@@ -32,25 +32,25 @@ Tip: $git reset –hard tagName 可以回退到打tag 的那个commit_id.
 1. 创建ssh key命令 $ ssh-keygen -t rsa -C "youremail@example.com" 并且添加public key to github Setting/SSH Key
 
 2. 跟本地连接起来
-本地连接远程：$ git remote add orgin xxxxx
-本地删除远程连接：$ git remote remove orgin
+本地连接远程：$ git remote add origin xxxxx
+本地删除远程连接：$ git remote remove origin
 
 ## Normal Flow with Local and Remote:
 1. 从远程克隆项目：$ git clone git@xxx
 
 2. 从本地上传代码：
-$ git push -u orgin master(already set-upstream)
-$ git push orgin master(local/master -> origin/master)
-$ git push orgin dev(local/dev -> origin/dev)
+$ git push -u origin master(already set-upstream)
+$ git push origin master(local/master -> origin/master)
+$ git push origin dev(local/dev -> origin/dev)
 $ git push
 Tip : 
-a.	Cannnot push to orgin/master from local/dev
+a.	Cannnot push to origin/master from local/dev
 b.	Local dev branch connect to remote branch : $ git branch --set-upstream dev origin/dev
 
 3. 查看远程连接：
 $ git remote -v
-orgin git@github.com:michaelliao/learngit.git (fetch)
-orgin git@github.com:michaelliao/learngit.git (push)
+origin git@github.com:michaelliao/learngit.git (fetch)
+origin git@github.com:michaelliao/learngit.git (push)
 
 Tip:上面显示了可以抓取和推送的origin的地址。如果没有推送权限，就看不到push 地址。
 
@@ -72,10 +72,10 @@ $ git pull
 强制删除分支：$ git branch -D name
 和远程连接：$ git branch --set-upstream dev origin/dev
 Tip: 下面两个是同等的
-a.	本地创建和远程分支对应的分支: $ git checkout -b dev orgin/dev
+a.	本地创建和远程分支对应的分支: $ git checkout -b dev origin/dev
 b.	创建分支: $ git branch dev
 切换分支：$ git checkout dev
-和远程连接：$ git branch --set-upstream dev orgin/dev
+和远程连接：$ git branch --set-upstream dev origin/dev
 3 解决冲突
 在master 和dev 分别改了同一行代码，当master merge dev 会冲突，需要手动改了之后再git add/git commit。之后回到dev 也得要merge master 过来（这时候git 会自动处理，不需要手动merge）。
 
@@ -86,7 +86,7 @@ Tip: 禁用“Fast forward”模式，Git就会在merge时生成⼀个新的comm
 2.2 查看merge 历史纪录：
 $ git log --graph --pretty=oneline --abbrev-commit
 4 提交到远程
-从本地dev 提交到远程dev分支：$ git push orgin dev
+从本地dev 提交到远程dev分支：$ git push origin dev
 
 Tip: 
 a.	如果推送失败，则因为远程分支比你的本地更新，需要先用 $ git pull试图合并
@@ -114,7 +114,7 @@ d.	如果git pull提⽰示“no tracking information”，则说明本地分支�
 
 本地打标签：
 切换到相应分支：$ git checkout dev/$ git checkout master
-同步和远程的代码：$ git pull/$ git pull orgin dev/$ git pull origin master
+同步和远程的代码：$ git pull/$ git pull origin dev/$ git pull origin master
 打标签：
 $ git tag tagName
 $ git tag –a tagName -m “xxx”
@@ -124,8 +124,8 @@ $ git tag –a tagName -m “xxx” commit_id
 查看标签列表：$ git tag
 删除本地标签：$ git tag –d tagName
 提交标签到远程：
-$ git push orgin tagName
-$ git push orgin --tags
+$ git push origin tagName
+$ git push origin --tags
 删除远程标签：
 a.	先从本地删除：$ git tag -d v0.9
 b.	再从远程删除: $ git push origin :refs/tags/v0.9
