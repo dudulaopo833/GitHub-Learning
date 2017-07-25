@@ -6,6 +6,7 @@
  
  ## 代码管理
 * Git - https://github.com
+# GitFlow - https://datasift.github.io/gitflow/IntroducingGitFlow.html and http://nvie.com/posts/a-successful-git-branching-model/
 
 ## 包管理工具
 * Node.js - https://nodejs.org/en/ or https://docs.npmjs.com/files/package.json -> nested tree
