@@ -56,7 +56,7 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Webpack - https://webpack.js.org/guides/getting-started/
 
 ## 代码检测工具
-* Eslint - http://eslint.org/ -> ES6 to ES5
+* Eslint - http://eslint.org/ -> ES6 to ES5 http://eslint.org/docs/user-guide/configuring
 * Stylelint - https://github.com/stylelint/stylelint -> CSS
 
 ## 测试工具
