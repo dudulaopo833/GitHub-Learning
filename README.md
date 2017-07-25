@@ -56,13 +56,15 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Webpack - https://webpack.js.org/guides/getting-started/
 
 ## 代码检测工具
-* Eslint - http://eslint.org/ -> ES6 to ES5 http://eslint.org/docs/user-guide/configuring
+* Eslint - http://eslint.org/ -> ES6 to ES5 && http://eslint.org/docs/user-guide/configuring && http://eslint.org/docs/rules/
 * Stylelint - https://github.com/stylelint/stylelint -> CSS
 
 ## 测试工具
 * Jest - http://facebook.github.io/jest/ -> Jest is a complete and easy to set up JavaScript testing solution
 * flowtype - https://flow.org/ or https://github.com/flowtype -> A static type checker for JavaScript
 * Selenium - https://wizardforcel.gitbooks.io/selenium-doc/content/official-site/introduction.html
+* Mocha - 
+
 
 ## 其他工具
 * css-loader - https://github.com/webpack-contrib/css-loader
