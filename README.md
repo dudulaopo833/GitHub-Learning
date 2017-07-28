@@ -6,7 +6,8 @@
  
  ## 代码管理
 * Git - https://github.com
-# GitFlow - https://datasift.github.io/gitflow/IntroducingGitFlow.html and http://nvie.com/posts/a-successful-git-branching-model/
+* GitFlow - https://datasift.github.io/gitflow/IntroducingGitFlow.html and http://nvie.com/posts/a-successful-git-branching-model/
+* Semantic Versioning - http://semver.org/lang/zh-CN/ or https://docs.npmjs.com/getting-started/semantic-versioning or https://semver.npmjs.com/
 
 ## 包管理工具
 * Node.js - https://nodejs.org/en/ or https://docs.npmjs.com/files/package.json -> nested tree
