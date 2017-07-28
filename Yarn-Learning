@@ -27,7 +27,7 @@ yarn install/link
 
 3. 安装某个开发时依赖项目
 npm install --save-dev xxx   
-yarn add xxx —dev   
+yarn add xxx --dev   
 
 4. 移除某个依赖项目
 npm uninstall --save-dev xxx    
