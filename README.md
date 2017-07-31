@@ -59,6 +59,7 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 ## 代码检测工具
 * Eslint - http://eslint.org/ -> ES6 to ES5 && http://eslint.org/docs/user-guide/configuring && http://eslint.org/docs/rules/
 * Stylelint - https://github.com/stylelint/stylelint -> CSS
+* Jshint - https://github.com/jshint/jshint and http://jshint.com
 
 ## 测试工具
 * Jest - http://facebook.github.io/jest/ or http://facebook.github.io/jest/docs/zh-Hans/getting-started.html -> Jest is a complete and easy to set up JavaScript testing solution
@@ -96,4 +97,5 @@ http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
 * verdaccio - https://github.com/verdaccio/verdaccio -> Private npm repository server -〉创建私有npm repository
 * tcomb - https://www.npmjs.com/package/tcomb -> tcomb is a library for Node.js and the browser which allows you to check the types of JavaScript values at runtime with a simple and concise syntax
 * download-git-repo - https://www.npmjs.com/package/download-git-repo -> Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
-
+* acorn - https://github.com/ternjs/acorn -> A tiny, fast JavaScript parser, written completely in JavaScript.
+* atomic web design - http://bradfrost.com/blog/post/atomic-web-design/
