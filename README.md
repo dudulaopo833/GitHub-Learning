@@ -61,7 +61,7 @@ Comparation: http://efe.baidu.com/blog/revisiting-css-preprocessors/
 * Stylelint - https://github.com/stylelint/stylelint -> CSS
 
 ## 测试工具
-* Jest - http://facebook.github.io/jest/ -> Jest is a complete and easy to set up JavaScript testing solution
+* Jest - http://facebook.github.io/jest/ or http://facebook.github.io/jest/docs/zh-Hans/getting-started.html -> Jest is a complete and easy to set up JavaScript testing solution
 * flowtype - https://flow.org/ or https://github.com/flowtype -> A static type checker for JavaScript
 * Selenium - https://wizardforcel.gitbooks.io/selenium-doc/content/official-site/introduction.html
 * Mocha - 
