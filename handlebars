@@ -26,6 +26,8 @@ const returnFun = handlebars.compile(template);
 const content = returnFun(data);
 fs.writeFileSync(destPath, content);
 ---------------------------------------------
-Webpack need to add below alias
+a. Webpack need to add below alias.
 webpackConfig.resolve = {    modules: [],    alias: {        'handlebars': 'handlebars/runtime.js'    }};
 refer to [how to fix require.extension](https://github.com/iscarecrow/myBlog/issues/2)
+b. Webpack need to add loaders as below.
+webpackConfig.module.rules = [    {        test: /\.hbs$/,        loader: 'handlebars-loader'    }];
