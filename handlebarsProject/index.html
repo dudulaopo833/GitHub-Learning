@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hanblebars</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="lib/jquery-2.1.4.js"></script>
+	<script src="lib/handlebars-4.0.10.js"></script>
+	<script src="js/index.js"></script>
+	<script id="class-template" type="text/x-handlebars-template">
+		<ul>
+			{{#each this}}
+			<li>
+				<div class="innerbox">
+					<img src="{{image}}" alt="{{title}}">
+					<div class="titlediv">
+						<span class="title">{{title}}</span>
+						{{#equal hasnote 1}}<span class="note">(有笔记))</span>{{/equal}}
+					</div>
+					<div class="subtitle">{{subtitle}}</div>
+					<div class="subtitle">时间： {{timespan}}</div>
+				</div>
+			</li>
+			{{/each}}
+		</ul>
+	</script>
+
+
+</head>
+<body>
+	<div class="banner">
+		<h1>我的笔记</h1>
+		<h3>你的指尖，有改变世界的力量</h3>
+	</div>
+
+	<div class="classes" id="classesDiv">
+	</div>
+</body>
+</html>
