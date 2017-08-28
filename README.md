@@ -104,4 +104,6 @@ http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
 * atomic web design - http://bradfrost.com/blog/post/atomic-web-design/
 * axios - https://www.npmjs.com/package/axios  --> Promise based HTTP client for the browser and node.js
 * js-cookies - https://www.npmjs.com/package/js-cookie --> A simple, lightweight JavaScript API for handling cookies
+* insert-line - https://www.npmjs.com/package/insert-line --> Node module for inserting lines to an existing file.
+* locater - https://www.npmjs.com/package/locater --> Find line number and cursor of string or Regex in a multi-line input
 
