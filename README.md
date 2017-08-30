@@ -15,8 +15,8 @@
 
 ## 文档生成工具
 * Jekyll - https://jekyllrb.com/ && https://github.com/jekyll 
-* esdoc - https://esdoc.org/ 
-* storybook - https://storybook.js.org/ && 
+* esdoc - https://esdoc.org/ && https://esdoc.org/manual/usage.html
+* storybook - https://storybook.js.org/ && https://github.com/storybooks/storybook
 
 ## 脚手架工具
 * Yeoman - http://yeoman.io
