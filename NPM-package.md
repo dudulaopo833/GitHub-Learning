@@ -35,5 +35,4 @@
 * tcomb - https://www.npmjs.com/package/tcomb -> tcomb is a library for Node.js and the browser which allows you to check the types of JavaScript values at runtime with a simple and concise syntax
 * download-git-repo - https://www.npmjs.com/package/download-git-repo -> Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
 * js-cookies - https://www.npmjs.com/package/js-cookie --> A simple, lightweight JavaScript API for handling cookies
-* atomic web design - http://bradfrost.com/blog/post/atomic-web-design/
 
