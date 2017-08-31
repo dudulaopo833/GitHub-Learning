@@ -26,6 +26,8 @@
 # 包发布：
 * lerna - https://github.com/lerna/lerna -> A tool for managing JavaScript projects with multiple packages.-〉发布包
 * verdaccio - https://github.com/verdaccio/verdaccio -> Private npm repository server -〉创建私有npm repository
+# 浏览器操作：
+* redux-persist - https://github.com/rt2zz/redux-persist/tree/v5 
 # 异步：
 * axios - https://www.npmjs.com/package/axios  --> Promise based HTTP client for the browser and node.js
 * bluebird - https://www.npmjs.com/package/bluebird --> Bluebird is a fully featured promise library with focus on innovative features and performance
