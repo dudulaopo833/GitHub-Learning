@@ -23,9 +23,10 @@
 * insert-line - https://www.npmjs.com/package/insert-line --> Node module for inserting lines to an existing file.
 * locater - https://www.npmjs.com/package/locater --> Find line number and cursor of string or Regex in a multi-line input
 * acorn - https://github.com/ternjs/acorn -> A tiny, fast JavaScript parser, written completely in JavaScript.
-# 包发布：
+# 包发布管理：
 * lerna - https://github.com/lerna/lerna -> A tool for managing JavaScript projects with multiple packages.-〉发布包
 * verdaccio - https://github.com/verdaccio/verdaccio -> Private npm repository server -〉创建私有npm repository
+* nrm - https://github.com/Pana/nrm -> npm registry manager
 # 浏览器操作：
 * redux-persist - https://github.com/rt2zz/redux-persist/tree/v5 
 # 异步：
