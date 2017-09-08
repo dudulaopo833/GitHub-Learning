@@ -32,6 +32,7 @@
 # 异步：
 * axios - https://www.npmjs.com/package/axios  --> Promise based HTTP client for the browser and node.js
 * bluebird - https://www.npmjs.com/package/bluebird --> Bluebird is a fully featured promise library with focus on innovative features and performance
+* fetch - https://github.com/github/fetch --> romise-based mechanism for programmatically making web requests in the browser. 
 * 
 # 其他：
 * gutil - https://www.npmjs.com/package/gutil -> General Util methods
