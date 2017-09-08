@@ -34,6 +34,7 @@
 * axios - https://www.npmjs.com/package/axios  --> Promise based HTTP client for the browser and node.js
 * bluebird - https://www.npmjs.com/package/bluebird --> Bluebird is a fully featured promise library with focus on innovative features and performance
 * fetch - https://github.com/github/fetch --> romise-based mechanism for programmatically making web requests in the browser. 
+* socket.io-client - http://socket.io/ or https://github.com/socketio/socket.io-client --> Realtime application framework (client) 
 # 其他：
 * gutil - https://www.npmjs.com/package/gutil -> General Util methods
 * tcomb - https://www.npmjs.com/package/tcomb -> tcomb is a library for Node.js and the browser which allows you to check the types of JavaScript values at runtime with a simple and concise syntax
